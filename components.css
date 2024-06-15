@@ -1,0 +1,90 @@
+/* logo */
+.logo{
+    padding: 10px;
+    display: block;
+}
+
+.logo-img{
+    width: 70px;
+}
+
+@media (min-width: 960px) {
+   .logo-img{
+    width: 119px;
+   } 
+}
+/* widgets */
+.widgets{
+    display: flex;
+    gap: 30px;
+    width: 280px.69px;
+    height: 50px;
+}
+
+.widget-item{
+    border-radius: 5px;
+    padding: 3px 5px;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.widget-values{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.widget-icon{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+
+}
+.widget-val , .date-val, .price-val{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+/* dates */
+.date-title ,.widget-title ,.price-title  {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+    
+}
+.date-values{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: right;
+    font-size: 18px;
+}
+.date-icon{
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24v
+}
+
+.header-navigation>button{
+    background-image: url(search.png);
+}
+
+/* price */
+.price-values{
+    display: flex;
+    text-align: left;
+    gap: 10px;
+}
+
+#dollar{
+    color: #2ADB00;
+}
