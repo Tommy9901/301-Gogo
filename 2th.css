@@ -893,7 +893,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 80px;
-  margin-bottom: 71px;
+  margin-bottom: 71px`;
 }
 
 .footer-container-item-picture {
